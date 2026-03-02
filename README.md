@@ -1,13 +1,5 @@
 # Json2AnimBP
 
-Lightweight GUI utility that converts structured JSON data into Animation Blueprint nodes for Unreal Engine.
-
-Designed for modders who need a fast way to transform external data into usable AnimBP node structures without manual setup.
-
----
-
-## Overview
-
 Json2AnimBP parses formatted JSON input and generates node data ready to be implemented inside Unreal Engine Animation Blueprints.
 
 ---
