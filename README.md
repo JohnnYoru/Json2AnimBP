@@ -4,13 +4,13 @@ Converts a JSON AnimBP export directly into Animation Blueprint nodes using drag
 
 ---
 
-## ⚠️ Platform Support
+## Platform Support
 
 | Platform | Status |
 |----------|--------|
-| **Linux** | ✅ Fully supported - use as-is |
-| **Windows** | ⚠️ Must be compiled from source (see [Building from Source](#building-from-source)) |
-| **macOS** | ⚠️ Must be compiled from source |
+| **Linux** | Fully supported - use as-is |
+| **Windows** | Must be compiled from source |
+| **macOS** | Must be compiled from source |
 
 Pre-built binaries are **not included**. Linux users can compile via the editor's built-in rebuild prompt; Windows users require Visual Studio - see below.
 
@@ -116,7 +116,6 @@ After import, the plugin automatically creates a **LinkedInputPose → LocalToCo
 - The panel targets the **most recently opened** AnimBP when multiple are open. If you have several AnimBPs open, close the others or re-open the target one before importing.
 - `AnimGraphNode_KawaiiPhysics` nodes silently fail to import if KawaiiPhysics is not installed - UE skips unknown classes without an error.
 - Node positions are laid out in a 10-row grid. Rearrange them freely after import.
-- On Windows, dragging files from Explorer directly into the panel may not work in some UE versions due to OS drag-and-drop restrictions. Use **Browse for JSON…** or paste the path as a fallback.
 
 ---
 
